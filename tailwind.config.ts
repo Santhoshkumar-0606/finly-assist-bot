@@ -13,12 +13,24 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['IBM Plex Sans', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "slide-navy": "hsl(var(--slide-navy))",
+        "slide-emerald": "hsl(var(--slide-emerald))",
+        "slide-emerald-light": "hsl(var(--slide-emerald-light))",
+        "slide-gray": {
+          100: "hsl(var(--slide-gray-100))",
+          200: "hsl(var(--slide-gray-200))",
+          500: "hsl(var(--slide-gray-500))",
+          800: "hsl(var(--slide-gray-800))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
